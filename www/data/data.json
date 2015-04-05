@@ -1,0 +1,52 @@
+{
+	"2014":
+	{
+		"opatovicka_borovice" :
+		{
+			"nazev" : "Opatovická borovice",
+			"navrhovatel" : "Dalibor Badal, ZŠ, obec Velké Opatovice a Rodinné centrum Motýlek",
+			"druh" : "borovice černá rakouská",
+			"stari" : "257 let",
+			"obvod" : "337 cm",
+			"lokalita" : "Jihomoravský kraj, okres Blansko, obec Velké Opatovice, zámecký park",
+			"gps" : "",
+			"pribeh" : "Raritně větvená borovice je dominantou zámeckého parku ve Velkých Opatovicích a je unikátem celého kraje. Svým netypickým vzhledem přilákala už mnoho generací dětí k lezení po větvích. Tvarem připomíná sedmihlavou saň a také pověst mluví o tom, že se jedná o zakletého draka, se kterým bojoval svatý Jiří, jemuž je zasvěcený místní kostel. Podle pamětníků se borovici říkalo Julinka, protože pod ní na bílé lavičce sedávala hraběnka Julie Herbersteinová, poslední majitelka opatovického panství, pravnučka druhé manželky Napoleona Bonaparta. Borovice byla vybrána jako mateční strom pro sběr semen k dalšímu množení. V blízkosti stromu se nachází vzácná pět set let stará Opatovická lípa, ze které zbylo jen torzo a potřebovala by odbornou péči."
+		},
+		"skomelsky_dub" :
+		{
+			"nazev" : "Skomelský dub",
+			"navrhovatel" : "Petr Chrz a obec Skomelno",
+			"druh" : "dub letní",
+			"stari" : "610 let",
+			"obvod" : "630 cm",
+			"lokalita" : "Plzeňský kraj, okres Rokycany, obec Skomelno, u cesty směřující do Přírodního parku Radeč",
+			"gps" : "",
+			"pribeh" : "Starý dub tu stál od nepaměti a děti z blízkého i dalekého okolí si k němu chodily hrát. Mezi nimi i Petr Chrz, který si na něj po čase vzpomněl a znovu ho navštívil. Majestátní dub jej okouzlil, a proto se rozhodl požádat o jeho památkovou ochranu. Přestože se nepodařilo dub vyhlásit za památný z důvodu nesouhlasu vlastníka pozemku, prohlásila ho obec Skomelno alespoň za významný. Dnes u něj můžete nalézt zídku z vyskládaných kamenů a malé posezení se stříškou. Dub je v každém ročním období jiný - tajuplný, hrozivý, nádherný až pohádkový, a proto ho chodí navštěvovat čím dál více lidí, od nejmenších až po seniory."
+		}
+	},
+	"2013" :
+	{
+		"visnova" :
+		{
+			"nazev" : "Dub ochránce ve Višňové",
+			"navrhovatel" : "obec Višňová a o. s. Víska",
+			"druh" : "dub letní",
+			"stari" : "150 let",
+			"obvod" : "470 cm",
+			"lokalita" : "Liberecký kraj, okres Liberec, obec Višňová, část Víska",
+			"gps" : "",
+			"pribeh" : "V roce 2010 postihla Višňovou katastrofální povodeň. Řeka Smědá se vylila z břehů a nejvíce udeřila v části obce zvané Víska. Pod vodou zde bylo 42 domů z celkových 65. Voda s sebou vzala auta, stromy a další materiál. Proti naplaveninám se však postavil mohutný dub, který zde již dlouho roste. I když utrpěl četná zranění, odolal a nespadl. Mnoho hrázděných domů v jeho blízkosti vděčí dubu za to, že ještě stojí, protože ne všechny domy měly takové štěstí. Strom zachránil život také manželskému páru se psem, který přežil na střeše jednoho z domů. Místní obyvatelé ho i proto nazývají „Dubem ochráncem“ a doufají, že jeho službu již nikdy nebudou potřebovat. K optimismu je vede výstavba protipovodňové hráze, která v současné době nedaleko stromu probíhá."
+		},
+		"mnisek" :
+		{
+			"nazev" : "Skalecký buk v Mníšku pod Brdy ",
+			"navrhovatel" : "Město Mníšek pod Brdy",
+			"druh" : "buk lesní",
+			"stari" : "230 let",
+			"obvod" : "382 cm",
+			"lokalita" : "Středočeský kraj, okres Praha – západ, obec Mníšek pod Brdy, Barokní areál Skalka",
+			"gps" : "",
+			"pribeh" : "Majestátní buk vzhlíží do mníšeckého údolí z úpatí Skalky. Vysadili ho spolu s dalšími stromy pravděpodobně v letech 1760 - 1780, kdy vznikly také kapličky spojující spodní a horní část barokního areálu. Strom přežil nesmírnou zátěž, kterou přinášelo v 50. letech 20. století poddolování těžbou železné rudy. Těžba zasáhla celou lokalitu, ale buk dále rostl a ustál nepříznivá léta režimu. Pověsti vypraví, že sílu buku umocňuje rozdvojení symbolizující, že nikdo na světě není sám a každý má svého ochránce, který nad ním bdí. Skalecký buk jako kavalír a patron pečuje o kostelík sv. Máří Magdalény, po jehož levé straně roste. Svou ochranu poskytuje jako odměnu a projev úcty za Magdalénin kajícný život."
+		},
+	}
+}

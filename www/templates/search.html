@@ -1,0 +1,30 @@
+<ion-view view-title="Hledání">
+	<ion-content class="padding">
+		<div class="list">
+			<div class="item item-input-inset">
+				<label class="item-input-wrapper">
+					<input ng-model="searchTerm.phrase" type="text" placeholder="Hledaný strom"></input>
+				</label>
+				<button class="button button-clear button-icon ion-close-round" ng-click="clearSearch()"></button>
+			</div>
+		</div>
+
+		<div ng-show="searchTerm.phrase.length == 0">
+			<p>Zadejte klíčové slovo nebo frázi pro vyhledání stromu. Můžete hledat podle místa, navrhovatele nebo třeba druhu stromu.</p>
+		</div>
+
+		<div ng-show="searchTerm.phrase.length > 0">
+			<h4>Výsledky vyhledávání:</h4>
+
+			<ion-list>
+				<ion-item ng-repeat="item in data | filter:searchTerm.phrase" href="#/years/{{item.year}}/{{item.id}}" class="item-thumbnail-left">
+					<img ng-src="img/{{item.year}}/{{item.id}}.jpg"/>
+					{{item.name}}<br/>
+					{{item.kind}}<br/>
+					Rok: {{item.year}}<br/>
+					{{item.proposer}}
+				</ion-item>
+			</ion-list>
+		</div>
+	</ion-content>
+</ion-view>

@@ -1,0 +1,12 @@
+<ion-view view-title="Ročník {{year}}">
+  <ion-content class="padding">
+    <ion-list>
+      <ion-item class="item-thumbnail-left" href="#/years/{{item.year}}/{{item.id}}" ng-repeat="item in data | filter:{year:year} | orderBy:'rank'">
+        <img ng-src="img/{{year}}/{{item.id}}.jpg" />
+        <h2>{{item.name}}</h2>
+        <p>{{item.kind}}</p>
+        <p ng-show="item.votes > 0">Počet hlasů: {{item.votes}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

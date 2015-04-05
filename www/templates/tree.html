@@ -1,0 +1,33 @@
+<ion-view view-title="{{tree.name}}">
+  <ion-content class="padding">
+    <h1>{{tree.name}}</h1>
+      <div class="card">
+        <div class="item item-text-wrap">
+          <ul>
+            <li><strong>Navrhovatel:</strong> {{tree.propser}}</li>
+            <li><strong>Druh:</strong> {{tree.kind}}</li>
+            <li><strong>Stáří:</strong> {{tree.age}}</li>
+            <li><strong>Obvod ve 130cm:</strong> {{tree.perimeter}}</li>
+            <li><strong>Lokalita:</strong> {{tree.location}} </li>
+          </ul>
+        </div>
+      </div>
+
+      <!--p><a class="button icon ion-map" href="https://www.google.com/maps/place/{{strom.gps}}"> Zobrazit na mapě</a></p-->
+
+    <ul class="list">
+      <ion-toggle ng-model="isFavourite" toggle-class="toggle-assertive" ng-change="onFavouriteToggle()">Oblíbený strom</ion-toggle>
+    </ul>
+
+    <ion-slide-box on-slide-changed="slideHasChanged($index)">
+      <ion-slide ng-repeat="img in tree.images">
+        <img ng-src="img/{{tree.year}}/{{img}}.jpg" class="treeImage" />
+      </ion-slide>
+    </ion-slide-box>
+
+
+    <h3>Příběh stromu</h3>
+    <p> {{tree.story}} </p>
+
+  </ion-content>
+</ion-view>

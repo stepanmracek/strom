@@ -1,0 +1,9 @@
+<ion-view view-title="Ročníky ankety">
+  <ion-content class="padding">
+    <ion-list>
+      <ion-item href="#/years/{{year}}" ng-repeat="year in data | orderBy:toInt():true">
+        <h1>{{year}}</h1>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

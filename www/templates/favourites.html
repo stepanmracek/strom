@@ -1,0 +1,16 @@
+<ion-view view-title="Oblíbené">
+	<ion-content class="padding">
+		<ion-list ng-show="items.length > 0">
+			<ion-item class="item-thumbnail-left" ng-repeat="item in items" href="#/years/{{item.year}}/{{item.id}}">
+				<img ng-src="img/{{item.year}}/{{item.id}}.jpg" />
+        		<h2>{{item.name}}</h2>
+        		<p>{{item.kind}}</p>
+        		<p>Rok: {{item.year}}</p>
+			</ion-item>
+		</ion-list>
+		<div ng-show="items.length == 0">
+			<img src="img/bg.jpg" class="treeImage" />
+			<h4>Přidejte zde své oblíbené stromy. Najdete je procházením jednotlivých ročníků nebo vyhledáním.</h4>
+		</div>
+	</ion-content>
+</ion-view>
